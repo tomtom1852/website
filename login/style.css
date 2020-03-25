@@ -1,0 +1,130 @@
+body{
+    font-family: "Roboto" , sans-serif;
+    background: url() no-repeat center center fixed;
+    background-size: cover;
+}
+
+h1,h2,h3,a,p{
+    font-family: "Roboto" , sans-serif;
+}
+
+#login{
+    margin: 0 auto;
+    margin-top: 130px;
+    padding: 0;
+}
+
+.modal-content{
+    background-color: #3b4652;
+    opacity: .95;
+    padding: 0 18px;
+    box-shadow: 0px 0px 3px #848484;
+
+}
+
+.user-img{
+    margin-top: -50px;
+    margin-bottom: 35px;
+}
+
+.user-img img{
+    height: 100px;
+    width: 100px;
+    border-radius: 5px;
+    box-shadow: 0px 0px 2px #3b4652;
+}
+
+.form-group{
+    margin-bottom: 25px;
+
+}
+.form-group input{
+    height: 42px;
+    border-radius: 5px;
+    border: 0;
+    font-size: 18px;
+    padding-left: 40px;
+}
+.form-group input:focus{
+    border-color: dodgerblue;
+    box-shadow: 0 0 8px 0 dodgerblue;
+}
+
+
+#login button {
+    width: 40%;
+    margin: 5px 0 25px;
+}
+
+#login .btn{
+    background-color: #27c2a5;
+    color: #fff;
+    font-size: 19px;
+    padding: 7px 14px;
+    border-radius: 5px;
+    border-bottom: 4px solid #219882;
+
+}
+
+#login .btn:hover,.btn:focus{
+    background-color: #25a890 !important;
+    border-bottom:  4px solid #25a890 !important;
+}
+
+.fa-sign-in-alt:before{
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.fas.fa-sign-out-alt::before{
+    font-size: 20px;
+    margin-right: 7px;
+}
+
+.forgot{
+    padding: 5px 0 25px;
+}
+
+.forgot a{
+  color: #c2fbfe;  
+}
+
+.username input[type-text]{
+    padding-left: 40px;
+}
+
+.username{
+    position: relative;
+}
+
+.username i{
+    position: absolute;
+    left: 3px;
+    top: 5px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+.password i{
+    position: absolute;
+    left: 18px;
+    top: 70px;
+    padding: 9px 8px;
+    color: #aaa;
+    transition: .3s;
+}
+
+
+
+/*Footer*/
+footer{
+    background: rgb(61, 60, 60); 
+    padding: 30px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+ }
+
+ #user_div {
+     display: none;
+ }
